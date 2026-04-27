@@ -55,11 +55,12 @@
     }
   ],
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
+    "domainStrategy": "AsIs",
     "rules": [
       {
         "type": "field",
         "domain": [
+          "full:2484080.console.ctyun.cn",
           "domain:srdcloud.cn"
         ],
         "outboundTag": "coding"
